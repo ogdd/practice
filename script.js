@@ -24,8 +24,11 @@ document.getElementById("submit1").onclick = function() {
   if (userName.value == "Inci" && passwordText.value == "16/12/21" || passwordText.value == '16.12.21' ) {
     alert("I love You <3")
   }
+  else if (userName.value == "Arash" && passwordText.value == "123456") {
+    alert("Best Housemate Ever!")
+  }
   else {
-  alert(userName.value + ", " + passwordText.value);
+  alert(userName.value + ", " + passwordText.value + 'is not welcome here!!');
 }}
 
 
