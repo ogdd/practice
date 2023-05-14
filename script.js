@@ -18,3 +18,15 @@ button2.addEventListener('click', function() {
 })
 });
 
+document.getElementById("submit1").onclick = function() {
+  var userName = document.getElementById("username");
+  var passwordText = document.getElementById('password')
+  if (userName.value == "Inci" && passwordText.value == "16/12/21" || passwordText.value == '16.12.21' ) {
+    alert("I love You <3")
+  }
+  else {
+  alert(userName.value + ", " + passwordText.value);
+}}
+
+
+
