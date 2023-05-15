@@ -1,0 +1,52 @@
+form {
+    color: black;
+}
+.box0 {
+    color: red;
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}
+
+.box1 {
+    color: blue;
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+}
+
+.box2 {
+    color: green;
+    background-color: green;
+    width: 50%;
+    height: 50%;
+}
+
+.box3 {
+    color: black;
+    background-color: yellow;
+    width: 50%;
+    height: 50%;
+}
+
+.box4 {
+    color: violet;
+    background-color: violet;
+    width: 50%;
+    height: 50%;
+}
+.box5 {
+    color: orange;
+    background-color: orange;
+    width: 50%;
+    height: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 1000px;
+    background-color: black;
+}
+
